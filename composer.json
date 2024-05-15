@@ -1,0 +1,23 @@
+{
+    "name": "canreo/yii-highsoft",
+    "type": "library",
+    "description": "Port of https://github.com/tonybolzan/yii-highsoft",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tonybolzan"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": { "yii-highsoft\\": "src/yii-highsoft" }
+    },
+    "autoload-dev": {
+        "psr-4": { "yii-highsoft\\Tests\\": "tests/yii-highsoft/Tests" }
+    },
+    "require-dev": {
+        "highcharts/highcharts": "*"
+    }
+}
